@@ -2,8 +2,6 @@
 #### A project made for APIs & Microservices Module at FreeCodeCamp
 ----
 
-> #### WORK IN PROGRESS
-
 A project made for **APIs & Microservices Module** at FreeCodeCamp.
 
 #### User Stories

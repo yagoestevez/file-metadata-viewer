@@ -18,12 +18,12 @@ html( lang="en" )
 
   body.text-center
     main.col-10
-      .h1 File Metadata Viewer
+      .h1.text-primary File Metadata Viewer
       .lead A simple metadata analyzer which represents the file name and size in JSON format.
 
       form.col-10.px-0( method="POST" action="/api/fileanalyse" enctype="multipart/form-data" )
         .input-group.col-12.px-0.mt-5
-          input.form-control( type="file" aria-label="Upload a file" )
+          input.form-control( type="file" name="upfile" aria-label="Upload a file" required )
           .input-group-append
             button.btn.btn-primary( type="submit" ) Send file!
 
